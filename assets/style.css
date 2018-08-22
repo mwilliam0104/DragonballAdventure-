@@ -1,0 +1,69 @@
+
+
+#body {
+    background-image: url("https://pm1.narvii.com/6566/06624dadc23abd0ab0b9f787e1b30e99ac253193_00.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.jumbotron {
+
+    background: transparent;
+  
+}
+
+.display-4{
+
+    color: red;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+.lead{
+    font-size: 175%;
+  
+    
+}
+    
+
+#guess {
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    position: center;
+    height: 200px;
+    text-align: center;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    
+}
+
+#computerNum {
+
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.233);
+
+}
+
+.col-sm-4{
+    background-color:transparent; 
+    height: 200px;
+}
+
+.dragonballs{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.dragonball {
+
+ height: 200px;
+ width: 200px;
+ border-radius: 4px;
+ box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+transition: box-shadow 1s;
+}
+
+.dragonball:hover{
+    box-shadow: 25px 25px 25px rgba(0, 0, 0, 0.5);    
+    cursor: pointer;
+    transform: translate(5px,10px);
+    transition: box-shadow 1s, transform 2s; 
+    
+}
